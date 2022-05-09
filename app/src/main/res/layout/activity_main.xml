@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:backgroundTint="#3F51B5"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="630dp"
+        android:layout_height="281dp"
+        app:srcCompat="@drawable/delivery" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#100E0E" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Correo"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B52121"
+        android:shadowColor="#D81919"
+        android:text="Iniciar secion"
+        android:textColorHighlight="#A31D1D"
+        android:textColorHint="#DA1818"
+        android:textColorLink="#B61A1A"
+        app:iconTint="#A51313"
+        app:rippleColor="#BF1414"
+        app:strokeColor="#CD1B1B" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B52121"
+        android:shadowColor="#D81919"
+        android:text="Registrarse"
+        android:textColorHighlight="#A31D1D"
+        android:textColorHint="#DA1818"
+        android:textColorLink="#B61A1A"
+        app:iconTint="#A51313"
+        app:rippleColor="#BF1414"
+        app:strokeColor="#CD1B1B" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#100E0E" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olvidaste tu contraseña? Recuperar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#100E0E"
+        android:textSize="14sp" />
+
+</LinearLayout>
