@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3F51B5"
+    android:background="@color/azulnoche"
     android:gravity="center|center_vertical"
     android:orientation="vertical"
     tools:context=".Registrate">
@@ -35,7 +35,7 @@
         android:id="@+id/editTextTextPersonName"
         android:layout_width="282dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#CF0C0C"
+        android:backgroundTint="@color/red"
         android:ems="10"
         android:hint="Correo"
         android:inputType="textPersonName" />
@@ -44,7 +44,7 @@
         android:id="@+id/editTextTextPassword"
         android:layout_width="281dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#B61A1A"
+        android:backgroundTint="@color/red"
         android:ems="10"
         android:hint="Contraseña"
         android:inputType="textPassword" />
@@ -53,7 +53,7 @@
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="283dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#CF0C0C"
+        android:backgroundTint="@color/red"
         android:ems="10"
         android:hint="Nombre"
         android:inputType="textPersonName" />
@@ -62,7 +62,7 @@
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="288dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#CF0C0C"
+        android:backgroundTint="@color/red"
         android:ems="10"
         android:hint="Apellido"
         android:inputType="textPersonName" />
@@ -71,7 +71,7 @@
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="286dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#CF0C0C"
+        android:backgroundTint="@color/red"
         android:ems="10"
         android:hint="Telefono"
         android:inputType="textPersonName" />
@@ -80,7 +80,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#972020"
+        android:backgroundTint="@color/red"
         android:text="Registrarse" />
 
 </LinearLayout>

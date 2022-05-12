@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFC107"
-    android:backgroundTint="#FFC107"
-    android:gravity="center"
+    android:background="@color/amarillo"
+    android:backgroundTint="@color/azulclarito"
+    android:gravity="center|top"
     android:orientation="vertical"
-    tools:context=".Pedido">
+    tools:context=".Pedido"
+    android:onClick="Camino">
 
     <TextView
         android:id="@+id/textView11"
@@ -23,25 +24,25 @@
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pizzas Arturo" />
+        android:text="Pizzas Domino's" />
 
     <TextView
         android:id="@+id/textView22"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pizza Peperonni" />
+        android:text="Pizza Peperonni                                                                                 150" />
 
     <TextView
         android:id="@+id/textView23"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sprite" />
+        android:text="Sprite 600ml                                                                                        50 " />
 
     <TextView
         android:id="@+id/textView24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Buñuelos" />
+        android:text="Buñuelos                                                                                               80" />
 
     <Button
         android:id="@+id/button9"

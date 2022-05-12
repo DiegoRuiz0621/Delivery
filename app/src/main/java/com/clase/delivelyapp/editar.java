@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Pedido extends AppCompatActivity {
+public class editar extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pedido);
+        setContentView(R.layout.activity_editar);
     }
 
-    public void Camino(View view){
-        Intent Camino = new Intent(this, Camino.class);
-        startActivity(Camino);
+    public void Dashboard(View view){
+        Intent dashboard = new Intent(this, Dashboard.class);
+        startActivity(dashboard);
     }
 }

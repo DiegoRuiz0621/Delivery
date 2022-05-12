@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DelivelyApp">
         <activity
+            android:name=".Camino"
+            android:exported="false" />
+        <activity
+            android:name=".dominos"
+            android:exported="false" />
+        <activity
+            android:name=".editar"
+            android:exported="false" />
+        <activity
             android:name=".Pedido"
             android:exported="false" />
         <activity
@@ -17,9 +26,6 @@
             android:exported="false" />
         <activity
             android:name=".Registrate"
-            android:exported="false" />
-        <activity
-            android:name=".ui.login.Registrate"
             android:exported="false"
             android:label="@string/title_activity_registrate" />
         <activity

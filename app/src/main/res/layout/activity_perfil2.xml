@@ -29,7 +29,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#C31B1B"
-        android:text="Editar" />
+        android:text="Editar"
+        android:onClick="Editar"/>
 
     <View
         android:id="@+id/divider2"
