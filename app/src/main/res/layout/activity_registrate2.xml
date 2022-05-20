@@ -76,6 +76,33 @@
         android:hint="Telefono"
         android:inputType="textPersonName" />
 
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:ems="10"
+        android:hint="Cuenta"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName14"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:ems="10"
+        android:hint="F. Vencimiento"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName15"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:ems="10"
+        android:hint="CVV"
+        android:inputType="textPersonName" />
+
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"

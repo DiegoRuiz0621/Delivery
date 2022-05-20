@@ -82,14 +82,13 @@
         android:id="@+id/button6"
         android:layout_width="253dp"
         android:layout_height="48dp"
-        android:layout_marginTop="32dp"
         android:backgroundTint="@color/amarillo"
         android:gravity="center"
+        android:onClick="dominos"
         android:text="PIZZA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        android:onClick="dominos"/>
+        tools:layout_editor_absoluteY="318dp" />
 
     <Button
         android:id="@+id/button7"
@@ -127,13 +126,11 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="292dp"
-        android:layout_height="214dp"
-        android:layout_marginTop="72dp"
-        android:src="@drawable/pizza"
+        android:layout_width="258dp"
+        android:layout_height="257dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/mapa"
+        tools:layout_editor_absoluteY="61dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

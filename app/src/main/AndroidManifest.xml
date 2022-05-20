@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DelivelyApp">
         <activity
+            android:name=".mpizza"
+            android:exported="false" />
+        <activity
             android:name=".Camino"
             android:exported="false" />
         <activity

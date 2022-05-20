@@ -56,6 +56,30 @@
         android:inputType="numberSigned"
         android:text="Telefono" />
 
+    <EditText
+        android:id="@+id/editTextNumberSigned2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="Cuenta" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="F. Vencimiento" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="CVV" />
+
     <Button
         android:id="@+id/button11"
         android:layout_width="match_parent"
